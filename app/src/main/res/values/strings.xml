@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">rent easy trial1st</string>
+    <string name="Or">Start Your Earnings</string>
+    <string name="subqt">we will help you earn by just renting your daily essantials</string>
+    <string name="hwit">How it work?</string>
+    <string name="lgn">LOGIN</string>
+
+
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
