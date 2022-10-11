@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".myordr">
+
+
+    <TextView
+        android:id="@+id/rqstdpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/dp_15"
+        android:drawablePadding="@dimen/dp_15"
+        android:text="Requested products"
+        android:textColor="@color/marine_blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/MyOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_15"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:drawablePadding="@dimen/dp_15"
+        android:text="My_orders"
+        android:textColor="@color/marine_blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:id="@+id/view_FullUnderLine3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray"
+        tools:layout_editor_absoluteY="314dp" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505228690216",
+    "project_id": "rent-easy-trial1st",
+    "storage_bucket": "rent-easy-trial1st.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505228690216:android:c2a5f77746aab3fdf0c61d",
+        "android_client_info": {
+          "package_name": "com.example.renteasytrial1st"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505228690216-65apj2el27gih4c5326hl41qoq0ec1qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ANLeyF7xG5T8uQsY3-nEeqwQPTVqsJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505228690216-65apj2el27gih4c5326hl41qoq0ec1qh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

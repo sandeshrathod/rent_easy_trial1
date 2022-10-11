@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    tools:context=".feedback">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-127dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="221dp"
+                android:layout_height="88dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="48dp"
+                android:text="Feedback"
+
+                android:textColor="#E6CD80"
+                android:textSize="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/q_1"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Q1 . What triggers would prompt you to use the app?"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/rt_spn1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/fed_et1"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/edit"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="4dp"
+                android:elevation="6dp"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textEmailAddress"
+                android:paddingStart="8dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lgn" />
+
+
+            <TextView
+                android:id="@+id/q_2"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Q2.How convenient you feel to exchange your essentials with someone?"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/rt_spn2"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/fed22"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/edit"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="4dp"
+                android:elevation="6dp"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textEmailAddress"
+                android:paddingStart="8dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lgn" />
+
+
+            <TextView
+                android:id="@+id/q_3"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="20dp"
+                android:text="Q3. How would you feel if you can no longer use the app?"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/rt_spn3"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" />
+
+
+            <EditText
+                android:id="@+id/fed_et3"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/edit"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="4dp"
+                android:elevation="6dp"
+                android:ems="10"
+                android:hint="Answer"
+                android:inputType="textEmailAddress"
+                android:paddingStart="8dp"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lgn" />
+
+
+
+            <Button
+                android:id="@+id/fd_btn"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+
+                android:layout_marginBottom="256dp"
+                android:backgroundTint="#CBE8A9"
+                android:drawablePadding="4dp"
+                android:elevation="6dp"
+                android:paddingStart="8dp"
+                android:text="Submit"
+                android:textColor="@color/golden_yellow"
+                android:textSize="@dimen/sp_20"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+                app:layout_constraintTop_toBottomOf="@+id/tw_frgt_pwd" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

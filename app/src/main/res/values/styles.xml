@@ -4,9 +4,15 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/brwn</item>
-        <item name="colorPrimaryDark">@color/goldy</item>
-        <item name="colorAccent">@color/lgtgoldy</item>
+        <item name="colorPrimary">@color/light_red</item>
+        <item name="colorPrimaryDark">@color/golden_yellow</item>
+        <item name="colorAccent">@color/light_red</item>
     </style>
-
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cream_color</item>
+        <item name="colorPrimaryDark">@color/light_blue</item>
+        <item name="colorAccent">@color/light_red</item>
+        <item name="android:windowBackground">@color/marine_blue</item>
+    </style>
 </resources>

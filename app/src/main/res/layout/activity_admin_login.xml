@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1706D53"
+    tools:context=".login">
+
+
+    <TextView
+        android:id="@+id/lgn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:gravity="left"
+        android:text="Admin Login"
+        android:textColor="@color/blue_main"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fed22"
+        android:layout_width="343dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="4dp"
+        android:elevation="6dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="8dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lgn" />
+
+    <EditText
+        android:id="@+id/pass22"
+
+        android:layout_width="343dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/edit"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="4dp"
+        android:elevation="6dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="8dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fed22" />
+
+    <TextView
+        android:id="@+id/tw_frgt_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:gravity="right"
+        android:text="Forget password?"
+        android:textColor="@color/golden_yellow"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/pass22"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/lgn_btnAD"
+        android:layout_width="343dp"
+        android:layout_height="51dp"
+
+        android:layout_marginBottom="256dp"
+        android:backgroundTint="#EDCC79"
+        android:drawablePadding="4dp"
+        android:elevation="6dp"
+        android:paddingStart="8dp"
+        android:text="login"
+        android:textColor="@color/golden_yellow"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/tw_frgt_pwd" />
+
+    <TextView
+        android:id="@+id/tw_crt_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="48dp"
+        android:gravity="center_horizontal"
+        android:text="Create Account"
+        android:textColor="@color/golden_yellow"
+        android:textSize="@dimen/sp_20"
+
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/lgn_btnn"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

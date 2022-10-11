@@ -8,11 +8,14 @@
         android:title="My Account" />
 
     <item
-        android:id="@+id/nav_settings"
-        android:title="Settings" />
+        android:id="@+id/nav_pro_reg"
+        android:title="register product" />
 
     <item
         android:id="@+id/nav_logout"
-        android:title="Logout" />
+        android:title="Feedback" />
+    <item
+        android:id="@+id/nav_myordr"
+        android:title="My Orders" />
 
 </menu>
