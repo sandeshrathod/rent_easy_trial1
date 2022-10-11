@@ -63,7 +63,7 @@ holder.pname.setText(product.pname);
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             pname= itemView.findViewById(R.id.pro_name);
-            deposit = itemView.findViewById(R.id.rent2);
+            deposit = itemView.findViewById(R.id.text_dpst);
             Rent= itemView.findViewById(R.id.rent);
             pid= itemView.findViewById(R.id.pdd);
         btn_prod = itemView.findViewById(R.id.pro_pallet_btn);

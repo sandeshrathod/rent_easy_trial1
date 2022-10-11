@@ -9,20 +9,23 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="."
+        android:label="RentEasy-ready to earn?"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:parentActivityName=".MainActivity"
             android:name=".admin_usersss"
             android:exported="false" />
         <activity
             android:name=".Admin_homepage"
             android:exported="false" />
         <activity
+            android:parentActivityName=".homepage"
             android:name=".bill_payment"
             android:exported="false" />
         <activity
+            android:parentActivityName=".homepage"
             android:name=".user_desc"
             android:exported="false" />
         <activity
@@ -56,6 +59,7 @@
             android:name=".admin_login"
             android:exported="false" />
         <activity
+            android:parentActivityName=".homepage"
             android:name=".prod_desc"
             android:exported="false" />
         <activity

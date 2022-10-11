@@ -39,7 +39,7 @@ TextView he;
         });*/   /* temp =findViewById(R.id.button2);*/
 
         kk.setOnClickListener(view -> {
-            startActivity(new Intent(MainActivity.this,homepage.class));
+            startActivity(new Intent(MainActivity.this,login.class));
         });
         sgn_p = findViewById(R.id.sign_p);
         sgn_p.setOnClickListener(view -> {

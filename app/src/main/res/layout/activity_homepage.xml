@@ -22,8 +22,11 @@
             android:id="@+id/filtr_ctr_spn"
             android:layout_width="274dp"
             android:layout_height="35dp"
+
             android:layout_marginTop="20dp"
             android:layout_marginLeft="48dp"
+            android:background="#BFD9DC"
+            android:backgroundTint="#B5DDE1"
             app:layout_constraintTop_toTopOf="parent"
             />
 
@@ -42,7 +45,7 @@
         <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recylerview"
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
+        android:layout_height="wrap_content"
 
         android:layout_marginTop="4dp"
         android:layout_marginLeft="0dp"

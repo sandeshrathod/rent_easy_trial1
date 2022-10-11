@@ -51,7 +51,7 @@ public class admin_login extends AppCompatActivity {
 //                        progressBar.setVisibility(View.GONE);
 
                     if (task.isSuccessful()) {
-                        if (emailId.equals("admin@gmail.com")) {
+                        if (emailId.equals("rohitchau115@gmail.com")) {
                             startActivity(new Intent(this, Admin_homepage.class));
                         } else {
                             FirebaseAuth.getInstance().signOut();
